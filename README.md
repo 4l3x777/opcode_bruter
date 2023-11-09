@@ -1,2 +1,17 @@
-# opcode_bruter
-One assembler mnemonic to any opcodes finder
+# Одинаковые команды - разные опкоды
+
+##### Поиск методом bruteforce по опкодам и ассемблерным представлениям команд, допускающих использование разных опкодов.
+
+#### Для корректной работы необоходима установка radare2: 
+
+##### https://github.com/radareorg/radare2/releases
+
+#### Результаты для опкодов максимальной длины 2 в файле result.json.
+
+#### Используйте метод find_equals класса OneMnemonicAnyOpcode с параметром максимальной длины опкода.
+
+#### Для проверки результатов:
+
+##### https://defuse.ca/online-x86-assembler.htm
+
+#### TODO: bruteforce опкодов по заданному диапазону
